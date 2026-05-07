@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/* =========================================================
+   WOORI LANDING DARK
+   - index(4).html 전용
+========================================================= */
+
+/* ========== Base ========== */
+#index.index {
+  background: #101214;
+}
+
+.header,
+.content,
+.wrap {
+  background: transparent;
+}
+
+body {
+  color: #F1F3F5;
+}
+
+/* =========================================================
+   Hero
+========================================================= */
+.hero {
+  background: #16181A;
+}
+
+.hero__text {
+  color: #B2BBC3;
+}
+
+/* hero__title 기존 컬러 유지 */
+
+.hero__subtext,
+.hero__caption-text {
+  color: #DEE2E6;
+}
+
+.hero__visual {
+  background: #16181A;
+}
+
+.hero-card-carousel__dots .hero-card-carousel__dot {
+  background: #495057;
+}
+
+.hero-card-carousel__dots .hero-card-carousel__dot.is-active {
+  background: #E9ECEF;
+}
+
+/* =========================================================
+   Howto
+========================================================= */
+.howto {
+  background: #16181A;
+}
+
+.howto__title {
+  color: #F8F9FA;
+}
+
+.howto__item {
+  background: #212528;
+}
+
+.howto__step {
+  color: #878F96;
+}
+
+.howto__text {
+  color: #F1F3F5;
+}
+
+.howto__desc,
+.howto__note {
+  color: #B2BBC3;
+}
+
+/* =========================================================
+   Benefit Banner
+========================================================= */
+.benefit-banner {
+  background: #212528;
+}
+
+.benefit-banner__eyebrow {
+  color: #B2BBC3;
+}
+
+.benefit-banner__title-text {
+  color: #F8F9FA;
+}
+
+/* 포인트 강조는 기존 브랜드 색 유지 */
+.benefit-banner__title-point {
+  color: var(--c-point, #2589F4);
+}
+
+/* =========================================================
+   WON Members
+========================================================= */
+.won-members {
+  background: #16181A;
+}
+
+.won-members__title,
+.won-members__headline {
+  color: #F8F9FA;
+}
+
+.won-members__desc {
+  color: #B2BBC3;
+}
+
+.won-members__desc-strong {
+  color: #E9ECEF;
+}
+
+.won-members__btn {
+  background: #2589F4;
+  color: #F8F9FA;
+}
+
+.won-members__cta {
+  background: transparent;
+}
+
+/* =========================================================
+   Mall Banner
+========================================================= */
+.mall-banner {
+  background: #16181A;
+}
+
+.mall-banner__title {
+  color: #F8F9FA;
+}
+
+/* indicator 뒤 배경 제거 */
+.mall-banner__indicator,
+.mall-banner__indicator-track {
+  background: transparent;
+}
+
+.mall-banner__dot {
+  background: #878F96;
+}
+
+.mall-banner__dot.is-active {
+  background: #E9ECEF;
+}
+
+.howto__cancel {
+  color: #B2BBC3;
+}
+
+/* =========================================================
+   Notice
+========================================================= */
+.notice {
+  background: #16181A;
+}
+
+.notice__toggle {
+  background: #16181A;
+  border-bottom: 1px solid #343A40;
+}
+
+.notice__title {
+  color: #F8F9FA;
+}
+
+.notice__icon {
+  filter: brightness(0) saturate(100%) invert(95%) sepia(8%) saturate(179%) hue-rotate(180deg) brightness(99%) contrast(95%);
+}
+
+.notice__content {
+  background: #212528;
+}
+
+.notice__section {
+  background: #212528;
+  border: 0;
+}
+
+.notice__section-title {
+  color: #F1F3F5;
+}
+
+.notice__text {
+  color: #B2BBC3;
+}
+
+.notice__text--accent {
+  color: #ed3b2c;
+}
+
+.notice__text--sub {
+  color: #878F96;
+}
+
+.review-note {
+  color: #878F96;
+}
+
+/* =========================================================
+   Common Cards / Surfaces
+========================================================= */
+.hero-card,
+.hero-card-carousel,
+.mall-banner__item {
+  background: transparent;
+}
+
+/* =========================================================
+   Optional image containers
+   - PNG 배너/카드 이미지 자체는 그대로 사용
+========================================================= */
+.hero-card__img,
+.mall-banner__item,
+.won-members__logo,
+.hero__icon,
+.benefit-banner__bee {
+  filter: none;
+}
+
+.mall-banner::before,
+.mall-banner::after {
+  background: #212528;
+}
